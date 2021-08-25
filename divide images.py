@@ -1,3 +1,4 @@
+//사진파일 이름으로 분류하기
 
 import os
 import shutil
