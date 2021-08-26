@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Video Stream</title>
+  </head>
+  <body>
+    <center>
+      <h1>오늘 당신의 하루는 어떠셨나요?</h1>
+      <h1>표정으로 보여주세요.</h1>  
+      <img src="{{ url_for('video_feed') }}" />
+      <form action='login_page.php'>
+      <input type='button' 
+             value='나의 감정 상태는?' 
+             onclick="location.href='after'">
+    <center>
+</form>
+  </body>
+</html>

@@ -1,0 +1,14 @@
+<html>
+<head>
+	<title>prediction</title>
+</head>
+<body>
+	<center>
+		<h1>오늘 당신의 하루는 어떠셨나요?</h1>
+		<h1>표정으로 보여주세요.</h1>         
+        <img src="{{url_for('static',filename='cropped.png')}}" alt="image">       
+		<h3>Prediction is:{{data}}</h3>
+		<h4>{{message}}</h4>
+    </center>
+</body>
+</html>
